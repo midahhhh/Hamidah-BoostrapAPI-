@@ -1,0 +1,132 @@
+/* 🌸 Pastel Modern Theme */
+
+body {
+  background-color: #fef9f9; /* Soft blush background */
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* 🌈 Navbar */
+.navbar {
+  background: linear-gradient(90deg, #ffd6e0, #b8e4f0, #d8f3dc);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #444 !important;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+  color: #222 !important;
+}
+
+.nav-link {
+  color: #555 !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+/* 🌸 Cards */
+.card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(255, 182, 193, 0.3);
+}
+
+.card-title {
+  color: #444;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #b8e4f0;
+  border: none;
+  color: #333;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a0d6e8;
+  color: #000;
+}
+
+/* 🌼 Loader */
+#loader {
+  display: none;
+}
+
+.spinner-border {
+  color: #f7aef8 !important;
+}
+
+/* 🌷 Footer */
+footer {
+  background: linear-gradient(90deg, #b8e4f0, #ffd6e0, #d8f3dc);
+  color: #333;
+  font-weight: 500;
+  border-top: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+footer a {
+  color: #444;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode {
+  background-color: #1c1c1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar {
+  background: linear-gradient(90deg, #2a2a2d, #343437);
+}
+
+body.dark-mode .card {
+  background-color: #2c2c2f;
+  color: #f0f0f0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode footer {
+  background: #242426;
+  color: #ccc;
+}
+
+#themeToggle {
+  cursor: pointer;
+  border: 1px solid #888;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#themeToggle:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
